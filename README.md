@@ -25,7 +25,8 @@ This project uses the following packages:
 4. MongoDB Atlas 
 
 ### Note:
-The config.ipynb contains all the properties such as the databaseName, ports, username, password, connection string, etc. Connections with postgreSQL(hosted on an AWS EC2 instance) and mongoDB can be establised by utilising these properties.
+1. The config.ipynb contains all the properties such as the databaseName, ports, username, password, connection string, etc. Connections with postgreSQL(hosted on an AWS EC2 instance) and mongoDB can be establised by utilising these properties.
+2. All cells in the Master.ipynb must be run sequentially to view the final output.
 
 ### Steps Followed in the Analysis
 * The following datasets are used :
@@ -35,8 +36,10 @@ The config.ipynb contains all the properties such as the databaseName, ports, us
     4. Dataset 4: Foodborne Disease Outbreak in csv format
 * Pre-processing, cleansing and transformation is performed on all four datasets.
 * The final structured dataframe is loaded into postgresSQL.
-* Dataset _ and Dataset _ are joined, thereby creating a separate table which is further visualised for statistical findings.
+* Datasets 2,3 and 4 are merged, thereby creating a single csv which is further visualised for statistical findings.
 * Individual datasets are also visualised to obtained certain insights.
+
+
 
 ### Data Flow Diagram
 <img src="https://github.com/Subash2409/pheonix/blob/master/Data%20flow%20diagram.png" alt="Data Flow Diagram" width="600" height="400">
