@@ -11,7 +11,6 @@ This project uses the following packages:
 * requests
 * pymongo
 * pandas
-* numpy
 * psycopg2
 * sqlalchemy
 * matplotlib
